@@ -2,7 +2,8 @@ from random import choice
 
 
 def daily_workout():
-    """A function that gives three different exercises, with reps/seconds provided"""
+    """A function that gives three different exercises, with reps/seconds provided. This one taught me about pulling
+     random items from a list using the choice method"""
 
     # The first list contains the different exercises
     workouts = ['squats', 'push-ups', 'plank', 'side-planks (Each Side)', 'jumping jacks', 'sit-ups', 'burpees',
