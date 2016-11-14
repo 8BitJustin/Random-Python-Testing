@@ -12,6 +12,7 @@ def daily_workout():
     # And finish set for 3, to be used with the entire set loop
     setFinish = 3
 
+    # This is the set loop. With each loop, three exercises will be generated, and the loop runs three times
     while setStart < setFinish:
         # The first list contains the different exercises
         workouts = ['squats', 'push-ups', 'plank', 'side-planks (Each Side)', 'jumping jacks', 'sit-ups', 'burpees',
@@ -28,8 +29,10 @@ def daily_workout():
         # And finish set for 3. To be used with the exercise while loop
         exFinish = 3
 
+        # This prints the initial set, with the first item within the set list
         print('\nSet ' + str(sets[0]) + ':')
-
+        # Once the above is printed, this removes the first item from the list, leaving the next item avail for the
+        # following loop
         sets.pop(0)
 
         while exStart < exFinish:
